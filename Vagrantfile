@@ -8,6 +8,8 @@
 Vagrant.configure(2) do |config|
   config.vm.box = "ubuntu/trusty64"
 
+  config.vm.synced_folder "exercises/", "/home/vagrant"
+
   config.vm.define "elixir" do |elixir|
     elixir.vm.hostname = "elixir"
     elixir.vm.network :private_network, ip: "172.16.16.16"
