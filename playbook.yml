@@ -1,0 +1,6 @@
+---
+- hosts: elixir
+  user: vagrant
+  sudo: yes
+  roles:
+     - { role: ohr486.elixir, erlang_version: 18.1, elixir_version: v1.1.1 }
