@@ -1,1 +1,8 @@
 .vagrant
+.bash_history
+.cache
+_build
+cover
+deps
+erl_crash.dump
+*.ez
