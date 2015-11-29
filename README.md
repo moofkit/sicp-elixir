@@ -16,4 +16,5 @@ So this repository is playground for SICP exercises.
 * `vagrant ssh` and you can run exercises with `elixir` or REPL `iex`
 * or you can run tests with `mix test` from `project` folder from vagrant machine
 
-## Inspired by (SICP on Clojure)[https://github.com/justCxx/sicp]
+---
+Inspired by (SICP on Clojure)[https://github.com/justCxx/sicp]
